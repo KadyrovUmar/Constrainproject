@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="2"
+    tools:context=".MainActivity">
+    
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_weight="1">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:weightSum="3"
+        android:orientation="vertical"
+        tools:ignore="NestedWeights">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="196dp"
+            android:layout_height="118dp"
+            android:layout_weight="1.5"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/pizza"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Домашняя Пицца"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="320сом"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="italic"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:text="Заказать"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:layout_height="0dp"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="186dp"
+                android:layout_height="144dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/pepperoni"
+                tools:ignore="ContentDescription" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:orientation="vertical"
+            android:layout_weight="0.5"
+            tools:ignore="InefficientWeight">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Пицца пеперони"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="360сом"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                tools:ignore="HardcodedText" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:text="Заказать"
+                tools:ignore="HardcodedText" />
+
+
+
+
+    </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_weight="1">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:weightSum="3"
+        android:orientation="vertical"
+        tools:ignore="NestedWeights">
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="196dp"
+            android:layout_height="123dp"
+            android:layout_weight="1.5"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/margarita"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Пицца Маргарито"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="400сом"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="italic"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:text="Заказать"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:layout_height="0dp"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="186dp"
+                android:layout_height="142dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/pizza"
+                tools:ignore="ContentDescription" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:orientation="vertical"
+            android:layout_weight="0.5"
+            tools:ignore="InefficientWeight">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Пицца пеперони"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="250сом"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                tools:ignore="HardcodedText" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:text="Заказать"
+                tools:ignore="HardcodedText" />
+
+
+
+
+    </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
